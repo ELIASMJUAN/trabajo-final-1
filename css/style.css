@@ -9,10 +9,10 @@
     padding: 0px;
 }
 
-/* colores de la web */
+/* colores de la web
 color naranja #ff4d05ff
 color gris #292a2a
-color gris oscuro #1f1f20
+color gris oscuro #1f1f20 */
 
 /* fuentes */
 .didact-gothic-regular {
@@ -33,3 +33,7 @@ color gris oscuro #1f1f20
     font-style: italic;
   }
   
+  body{
+    color: white;
+    background-color: #1f1f20;
+  }
