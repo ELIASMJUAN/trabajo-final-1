@@ -33,22 +33,42 @@ color gris oscuro #1f1f20 */
     font-style: italic;
   } */
   
-  body{
-    color: white;
-    background-color: #1f1f20;
+body{
+  color: white;
+  background-color: #1f1f20;
+}
+header{
+    
+}
+section.hero{
+  padding: 50px 400px 50px 20px;
+  background-image: url(../img/img1.jpg);
+  background-size: contain;
   }
-  section.dos{
-    background-color: #292a2a;
+section.dos{
+  background-color: #292a2a;
+  display: inline-flex;
+  text-align: top;
+}
+section.dosymedio{
+  text-align: center;
+}
+section.tres{
+  display: flex;
+  text-align: top;
+}
+section.cuatro{
+  background-color: #292a2a;
+  div{
+    text-align: center;
   }
-  section.cuatro{
-    background-color: #292a2a;
-  }
-  div.div8{
-    background-color: #292a2a;
-  }
-  div.div9{
-    background-color: #292a2a;
-  }
-  div.div10{
-    background-color: #292a2a;
-  }
+}
+div.div8{
+  background-color: #292a2a;
+}
+div.div9{
+  background-color: #292a2a;
+}
+div.div10{
+  background-color: #292a2a;
+}
