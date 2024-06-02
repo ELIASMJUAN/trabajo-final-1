@@ -1,9 +1,8 @@
 /* seccion @import (bootstrap y google fonts)*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Inclusive+Sans:ital@0;1&display=swap');
 
-/* seccion com universal */
+/* universal */
 *{
     margin: 0px;
     padding: 0px;
@@ -14,8 +13,59 @@ color naranja #ff4d05ff
 color gris #292a2a
 color gris oscuro #1f1f20 */
 
+body{
+  background-color: #1f1f20;
+  color: white;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+div.hd1{
+  display: flex;
+  text-align: end;
+}
 
+section.hero{
+  background-image: url(../img/img1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 670px;
+}
 
+section.s1{
+  background-color: #292a2a;
+  display: flex;
+}
+
+section.s2{
+  text-align: center;
+}
+div.s2d2{
+  background-color: #292a2a;
+  display: flex;
+  text-align: start;
+}
+
+section.s3{
+  background-color: #292a2a;
+  text-align: center;
+}
+div.s3d2{
+  display: flex;
+}
+div.s3d3{
+  display: flex;
+}
+
+section.s4{
+  display: flex;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
 /* fuentes
 .didact-gothic-regular {
     font-family: "Didact Gothic", sans-serif;
