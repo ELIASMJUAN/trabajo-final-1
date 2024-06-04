@@ -16,6 +16,10 @@ color gris oscuro #1f1f20 */
 body{
   background-color: #1f1f20;
   color: white;
+
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 header{
   display: flex;
@@ -23,7 +27,28 @@ header{
 }
 div.hd1{
   display: flex;
+  padding-left: 30px;
+  margin-top: 10px;  
+  letter-spacing: 1px;
+}
+h1.hd1l{
+  color: #ff4d05ff;
+}
+
+div.hd2{
+  display: flex;
   text-align: end;
+  p{
+    padding: 15px;
+    margin-right: 12px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #bfc0c0;
+  }
+  p.end{
+    margin-right: 30px;
+  }
 }
 
 section.hero{
