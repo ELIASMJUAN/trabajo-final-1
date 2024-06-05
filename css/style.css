@@ -134,10 +134,13 @@ div.iconhero{
 }
 /* -----------------------------FIN SECCION HERO */
 
-
+/* ----------------------------INICIO SECCION UNO 1 */
 section.s1{
   background-color: #292a2a;
   display: flex;
+}
+div.img1{
+  padding: 100px 30px;
 }
 
 section.s2{
