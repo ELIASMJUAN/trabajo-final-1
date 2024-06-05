@@ -62,7 +62,7 @@ div.sd1{
   display: flex;
   padding-top: 60px;
   font-size: large;
-  font-weight: ;
+  
   p.hd1{
     background-color: #ff4d05ff;
     border-radius: 10%;
@@ -114,7 +114,6 @@ div.heroboton{
     font-weight: 800;
     font-size: 15px;
     letter-spacing: 2px;
-    
   }
   i{
     background-color: #ff4d05ff;
