@@ -16,7 +16,9 @@ color gris oscuro #1f1f20 */
 body{
   background-color: #1f1f20;
   color: white;
-
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 header{
   display: flex;
@@ -26,7 +28,7 @@ div.hd1{
   display: flex;
   padding-left: 30px;
   margin-top: 10px;  
-  letter-spacing: 1px;
+  
 }
 h1.hd1l{
   color: #ff4d05ff;
@@ -37,9 +39,6 @@ div.hd2{
   p{
     padding: 15px;
     margin-right: 12px;
-    font-size: large;
-    letter-spacing: 1px;
-    font-weight: 600;
     color: #bfc0c0;
   }
   p.end{
@@ -53,12 +52,11 @@ section.hero{
   background-repeat: no-repeat;
   height: 670px;
   padding-left: 30px;
+
 }
 div.sd1{
   display: flex;
-  padding-top: 60px;
-  font-size: large;
-  
+  padding-top: 60px;  
   p.hd1{
     background-color: #ff4d05ff;
     border-radius: 10%;
@@ -72,18 +70,21 @@ div.sd2{
   padding: 30px 0px;
   font-weight: 800;
   letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
   h1{
     font-size: 70px;
   }
   div.flexd2hero{
     display: flex;
-    
   }
   h2{
     font-size: 50px;
   }
   h2.color{
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 50px;
     color: #ff4d05ff;
   }
@@ -93,8 +94,6 @@ div.texto{
   padding: 10px 0px;
   color: #bfc0c0;
   p{
-    font-size: large;
-    font-weight: bold;
     line-height: 40px;
   }
 }
