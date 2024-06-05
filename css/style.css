@@ -20,20 +20,21 @@ body{
   font-weight: 500;
   font-style: normal;
 }
+
+/* ---------------------------INICIO HEADER */
 header{
   display: flex;
   justify-content: space-between;
 }
-div.hd1{
+div.header1{
   display: flex;
   padding-left: 30px;
   margin-top: 10px;  
-  
 }
-h1.hd1l{
+h1.colorheader{
   color: #ff4d05ff;
 }
-div.hd2{
+div.header2{
   display: flex;
   text-align: end;
   p{
@@ -45,7 +46,9 @@ div.hd2{
     margin-right: 30px;
   }
 }
+/* -----------------------------FIN HEADER */
 
+/* ------------------------INICIO SECCION HERO */
 section.hero{
   /* background-image: url(../img/img1.jpg); */
   background-size: contain;
@@ -54,10 +57,10 @@ section.hero{
   padding-left: 30px;
 
 }
-div.sd1{
+div.hero1{
   display: flex;
   padding-top: 60px;  
-  p.hd1{
+  p.color1{
     background-color: #ff4d05ff;
     border-radius: 10%;
     padding: 1px 10px;
@@ -66,7 +69,7 @@ div.sd1{
     padding: 1px 10px;
   }
 }
-div.sd2{
+div.hero2{
   padding: 30px 0px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -83,13 +86,13 @@ div.sd2{
   h2{
     font-size: 50px;
   }
-  h2.color{
+  h2.color2{
     padding-left: 10px;
     font-size: 50px;
     color: #ff4d05ff;
   }
 }
-div.texto{
+div.textohero{
   width: 600px;
   padding: 10px 0px;
   color: #bfc0c0;
@@ -97,27 +100,26 @@ div.texto{
     line-height: 40px;
   }
 }
-div.heroboton{
-  padding: 30px 0px;
+div.botonhero{
+  display: flex;
   button{
     background-color: #ff4d05ff;
     color: white;
     border-style: none;
     border-radius: 5%;
-    padding: 15px 20px;
-    font-family: "Didact Gothic", sans-serif;
-    font-weight: 800;
-    font-size: 15px;
-    letter-spacing: 2px;
+
+    
   }
   i{
     background-color: #ff4d05ff;
+    color: white;
+    border-style: none;
     border-radius: 100%;
-    font-size: 30px;
-    padding: 8px 13px;
-    margin-top: 100px;
   }
 }
+
+/* -----------------------------FIN SECCION HERO */
+
 
 section.s1{
   background-color: #292a2a;
