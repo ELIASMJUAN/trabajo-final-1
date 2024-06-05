@@ -25,11 +25,14 @@ body{
 header{
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 div.header1{
   display: flex;
   padding-left: 30px;
-  margin-top: 10px;  
+  margin-top: 5px;  
 }
 h1.colorheader{
   color: #ff4d05ff;
@@ -102,22 +105,33 @@ div.textohero{
 }
 div.botonhero{
   display: flex;
+  margin-top: 50px;
   button{
     background-color: #ff4d05ff;
-    color: white;
+    color: #fbf9f9ff;
     border-style: none;
-    border-radius: 5%;
-
-    
+    border-radius: 5% 5%;
+    padding: 15px 25px;
+    p{
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
   }
+}
+div.iconhero{
+  margin: 5px 40px;
   i{
     background-color: #ff4d05ff;
     color: white;
     border-style: none;
     border-radius: 100%;
+    padding: 10px 15px;
+    font-size: 28px;
   }
 }
-
 /* -----------------------------FIN SECCION HERO */
 
 
