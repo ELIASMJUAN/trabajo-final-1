@@ -146,8 +146,32 @@ section.s1{
   display: flex;
 }
 div.img1{
-  padding: 100px 30px;
+  margin: 110px 30px;
 }
+div.textoseccion1{
+  margin: 185px 30px 0px 222px
+}
+div.flextitulo1{
+  display: flex;
+  h1{
+    font-size: 49px;
+  }
+  h1.colorseccion1{
+    color: #ff4d05ff;
+    margin-left: 10px;
+  }
+}
+h2.subtitulos1{
+  font-size: 26px;
+  padding-top: 5px;
+}
+div.pseccion1{
+  color: #b5b6b6ff;
+  margin-top: 30px;
+  font-size: large;
+  line-height: 30px;
+}
+/* ---------------------------AQUI */
 
 section.s2{
   text-align: center;
