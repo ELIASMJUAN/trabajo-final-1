@@ -194,10 +194,31 @@ div.buttons1{
 section.s2{
   text-align: center;
 }
-div.s2d2{
+p.encabezado{
+  padding-top: 100px;
+  color: #b5b6b6ff;
+  font-size: large;
+}
+div.div1s2{
+  display: flex;
+  justify-content: center;
+  h1.colors2{
+    color: #ff4d05ff;
+    padding-right: 5px;
+  }
+  h1{
+    font-size: 50px;
+    padding-bottom: 50px;
+  }
+}
+div.div2s2{
   background-color: #292a2a;
   display: flex;
+  justify-content: space-between;
   text-align: start;
+  div{
+    border: solid;
+  }
 }
 
 section.s3{
