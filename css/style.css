@@ -146,10 +146,10 @@ section.s1{
   display: flex;
 }
 div.img1{
-  margin: 110px 30px;
+  margin: 110px 30px 45px 27px;
 }
 div.textoseccion1{
-  margin: 185px 30px 0px 222px
+  margin: 185px 30px 0px 125px
 }
 div.flextitulo1{
   display: flex;
@@ -165,14 +165,32 @@ h2.subtitulos1{
   font-size: 26px;
   padding-top: 5px;
 }
-div.pseccion1{
+div.ps1{
   color: #b5b6b6ff;
   margin-top: 30px;
   font-size: large;
   line-height: 30px;
 }
-/* ---------------------------AQUI */
+div.buttons1{
+  margin-top: 60px;
+  button{
+    background-color: #ff4d05ff;
+    color: white;
+    border: none;
+    border-radius: 7%;
+    padding: 12px 30px;
+    p{
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+  }
+}
+/* ---------------------------FIN SECCION 1*/
 
+/* -------------------------INICIO SECCION 2 */
 section.s2{
   text-align: center;
 }
