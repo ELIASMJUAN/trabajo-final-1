@@ -317,12 +317,30 @@ div.inputs4{
     border-style: none;
     margin: 5px;
     padding: 90px 220px;
-  }
+  }  
 }
+button.s4{
+  background-color: #ff4d05ff;
+  color: white;
+  border-style: none;
+  border-radius: 5%;
+  margin-top: 12px;
+  margin-left: 5px;
+  padding: 12px 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+}
+
+
 
 footer{
   display: flex;
   justify-content: space-between;
+  background-color: #292a2aff;
 }
 
 /* .poppins-thin {
