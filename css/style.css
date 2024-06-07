@@ -8,10 +8,11 @@
     padding: 0px;
 }
 
-/* colores de la web
-color naranja #ff4d05ff
-color gris #292a2a
-color gris oscuro #1f1f20 */
+/* /* colores de la web
+color naranja     #ff4d05ff
+color gris        #292a2aff
+color gris oscuro #1f1f20ff
+color gris letras #bababbff */
 
 body{
   background-color: #1f1f20;
@@ -46,7 +47,7 @@ div.header2{
   p{
     padding: 15px;
     margin-right: 15px;
-    color: #bfc0c0;
+    color: #bababbff;
   }
   p.end{
     margin-right: 30px;
@@ -103,7 +104,7 @@ div.hero2{
 div.textohero{
   width: 600px;
   padding: 15px 0px;
-  color: #b5b6b6ff;
+  color: #bababbff;
   font-size: large;
   p{
     line-height: 38px;
@@ -166,7 +167,7 @@ h2.subtitulos1{
   padding-top: 5px;
 }
 div.ps1{
-  color: #b5b6b6ff;
+  color: #bababbff;
   margin-top: 30px;
   font-size: large;
   line-height: 30px;
@@ -196,7 +197,7 @@ section.s2{
 }
 p.encabezado{
   padding-top: 100px;
-  color: #b5b6b6ff;
+  color: #bababbff;
   font-size: large;
   padding-bottom: 5px;
 }
@@ -224,7 +225,7 @@ div.div2s2{
     padding-top: 10px;
   }
   p{
-    color: #b5b6b6ff;
+    color: #bababbff;
     padding: 15px 0px;
   }
   button{
@@ -261,12 +262,27 @@ div.diseñocreativo{
   margin: 10px 30px 10px 10px;
   padding: 20px 25px 10px 30px;
 }
+/* ----------------FIN SECCION 2 */
 
-
-
+/* --------------------INICIO SECCION 3 */
 section.s3{
   background-color: #292a2a;
   text-align: center;
+  p{
+    color: #bababbff;
+    padding-top: 100px;
+  }
+}
+div.titulos3{
+  display: flex;
+  justify-content: center;
+  h1{
+    font-size: 40px;
+  }
+}
+h1.colors3{
+  color: #ff4d05ff;
+  margin-right: 5px;
 }
 div.s3d2{
   display: flex;
@@ -274,9 +290,34 @@ div.s3d2{
 div.s3d3{
   display: flex;
 }
+/* -------------------FIN SECCION 3 */
 
+/* -------------------INICIO SECCION 4 */
 section.s4{
   display: flex;
+}
+div.titulos4{
+  display: flex;
+}
+h1.colors4{
+  color: #ff4d05ff;
+}
+div.inputs4{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  input{
+    background-color: #292a2aff;
+    border-style: none;
+    margin: 5px;
+    padding: 15px 220px;
+  }
+  textarea{
+    background-color: #292a2aff;
+    border-style: none;
+    margin: 5px;
+    padding: 90px 220px;
+  }
 }
 
 footer{
