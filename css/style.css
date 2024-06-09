@@ -71,7 +71,7 @@ div.hero1{
   p.color1{
     background-color: #ff4d05ff;
     border-style: none;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 0.8px 14px;
   }
   p{
@@ -81,7 +81,7 @@ div.hero1{
 div.hero2{
   padding: 18px 0px;
   font-weight: 800;
-  letter-spacing: 1px;
+  
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -117,7 +117,7 @@ div.botonhero{
     background-color: #ff4d05ff;
     color: #fbf9f9ff;
     border-style: none;
-    border-radius: 5% 5%;
+    border-radius: 10px;
     padding: 15px 25px;
     p{
       font-family: "Poppins", sans-serif;
@@ -178,7 +178,7 @@ div.buttons1{
     background-color: #ff4d05ff;
     color: white;
     border: none;
-    border-radius: 7%;
+    border-radius: 10px;
     padding: 12px 30px;
     p{
       font-family: "Poppins", sans-serif;
@@ -232,7 +232,7 @@ div.div2s2{
     background-color: #323335ff;
     color: #efeeecff;
     border-style: none;
-    border-radius: 6%;
+    border-radius: 10px;
     padding: 6px 10px;
     margin-top: 7px;
     margin-bottom: 15px;
@@ -246,19 +246,19 @@ div.div2s2{
 }
 div.diseñoweb{
   background-color: #292a2a;
-  border-radius: 3%;
+  border-radius: 10px;
   margin: 10px 10px 10px 30px;
   padding: 20px 25px 10px 30px;
 }
 div.desarrolloweb{
   background-color: #292a2a;
-  border-radius: 3%;
+  border-radius: 10px;
   margin: 10px 15px;
   padding: 20px 25px 10px 30px;
 }
 div.diseñocreativo{
   background-color: #292a2a;
-  border-radius: 3%;
+  border-radius: 10px;
   margin: 10px 30px 10px 10px;
   padding: 20px 25px 10px 30px;
 }
@@ -296,37 +296,77 @@ div.s3d3{
 section.s4{
   display: flex;
 }
+div.textos4{
+  width: 50%;
+  padding: 20px;
+  margin-top: 150px;
+}
 div.titulos4{
   display: flex;
+}
+h1{
+  font-size: 42px;
+  margin-bottom: 10px;
 }
 h1.colors4{
   color: #ff4d05ff;
 }
-div.inputs4{
+p.subtitulos4{
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: white;
+}
+p.textogris{
+  color: #bababbff;
+  width: 530px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+a{
+  color: #bababbff;
+  text-decoration: none;
+  font-size: 15px;
+}
+div.icons4{
+  margin-top: 40px;
+  i{
+    background-color: #ff4d05ff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+}
+form{
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  input{
-    background-color: #292a2aff;
-    border-style: none;
-    margin: 5px;
-    padding: 15px 220px;
-  }
-  textarea{
-    background-color: #292a2aff;
-    border-style: none;
-    margin: 5px;
-    padding: 90px 220px;
-  }  
+  margin: 80px 15px 0px 0px;
+  padding: 20px;
 }
+input{
+  background-color: #292a2aff;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  margin: 5px 0px;
+  padding: 20px 440px 20px 15px ;
+}
+textarea{
+  background-color: #292a2aff;
+  border-style: none;
+  border-radius: 10px;
+  margin: 5px 0px;
+  padding: 20px 440px 180px 15px;
+  text-decoration: none;
+}  
 button.s4{
   background-color: #ff4d05ff;
   color: white;
-  border-style: none;
-  border-radius: 5%;
+  border: none;
+  border-radius: 10px;
   margin-top: 12px;
   margin-left: 5px;
   padding: 12px 20px;
+  cursor: pointer;
 
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -334,15 +374,32 @@ button.s4{
   font-size: 16px;
   letter-spacing: 0.1px;
 }
+button:hover{
+  background-color: #e65c00;
+}
+/* --------------------FIN SECCION 4 */
 
-
-
+/* INICIO FOOTER */
 footer{
   display: flex;
   justify-content: space-between;
   background-color: #292a2aff;
+  font-size: small;
+  padding: 25px;
+  p{
+    color: #bababbff;
+  }
+  i{
+    background-color: #ff4d05ff;
+    padding: 8px 13px;
+    margin: 5px;
+    border-radius: 10px;
+  }
 }
+/* FIN FOOTER */
 
+
+/* FUENTES */
 /* .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
