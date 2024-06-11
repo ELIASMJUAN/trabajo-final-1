@@ -46,14 +46,18 @@ h1.colorheader{
 div.header2{
   display: flex;
   text-align: end;
-  font-size: large;
   p{
     padding: 15px;
+    margin-top: 5px;
     margin-right: 15px;
     color: #bababbff;
   }
   p.end{
     margin-right: 30px;
+  }
+  a{
+    font-size: medium;
+    font-weight: 400;
   }
 }
 /* -----------------------------FIN HEADER */
@@ -241,9 +245,7 @@ div.div2s2{
     margin-top: 7px;
     margin-bottom: 15px;
 
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 500; 
     font-size: 15px;
     letter-spacing: 0.5px;
   }
@@ -335,6 +337,7 @@ div.icons4{
   margin-top: 40px;
   i{
     background-color: #ff4d05ff;
+    color: white;
     padding: 10px 15px;
     margin: 5px;
     border-radius: 10px;
