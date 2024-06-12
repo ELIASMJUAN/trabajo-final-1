@@ -134,13 +134,18 @@ div.textohero{
 div.botonhero{
   display: flex;
   margin-top: 38px;
+  :hover{
+    background-color:#ff6600;
+    border-radius: 5px;
+  }
   button{
     background-color: #ff4d05ff;
     color: #fbf9f9ff;
     border-style: none;
     border-radius: 5px;
     padding: 15px 25px;
-    p{
+    a{
+      color: white;
       font-weight: 600;
       font-style: normal;
       font-size: 15px;
@@ -310,6 +315,7 @@ h1.colors3{
 }
 div.s3d2{
   display: flex;
+  padding-bottom: 45px;
   img{
     max-width: 100%;
     border-radius: 10px;
