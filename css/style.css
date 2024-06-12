@@ -312,16 +312,21 @@ div.s3d2{
   display: flex;
   img{
     max-width: 100%;
+    border-radius: 10px;
+    width: 420px;
   }
 }
 div.img3{
-  margin: 10px;
+  margin: 10px 10px 10px 28px;
+  border-radius: 5px;
 }
 div.img4{
-  margin: 10px;
+  margin: 10px 15px;
+  border-radius: 5px;
 }
 div.img5{
-  margin: 10px;
+  margin: 10px 28px 10px 10px;
+  border-radius: 5px;
 }
 /* -------------------FIN SECCION 3 */
 
