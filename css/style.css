@@ -19,7 +19,7 @@ body{
   background-color:#1f1f20;
   background-size: auto;
   background-repeat: no-repeat;
-  
+
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -310,9 +310,18 @@ h1.colors3{
 }
 div.s3d2{
   display: flex;
+  img{
+    max-width: 100%;
+  }
 }
-div.s3d3{
-  display: flex;
+div.img3{
+  margin: 10px;
+}
+div.img4{
+  margin: 10px;
+}
+div.img5{
+  margin: 10px;
 }
 /* -------------------FIN SECCION 3 */
 
@@ -381,6 +390,7 @@ input{
 }
 textarea{
   background-color: #292a2aff;
+  color: white;
   border-style: none;
   border-radius: 10px;
   margin: 5px 0px;
@@ -431,6 +441,9 @@ footer{
 }
 /* FIN FOOTER */
 
+html{
+  scroll-behavior: smooth;
+}
 
 /* FUENTES */
 /* .poppins-thin {
