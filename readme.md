@@ -29,8 +29,9 @@ Sigue estos pasos para utilizar y modificar esta página web:
    ```bash
    git clone https://github.com/ELIASMJUAN/trabajo-final-1.git
 
-##💭 Notas:
+## Notas:
 
+💭
 - El diseño carece de Responsive debido a la enorme empatia y comprension de nuestro profesor, que vio, juzgo y decidio que somos unos pollitos y todavia no sabemos volar. Muchas gracias.
 - Las imagenes del Portfolio son extractos de trabajos opcionales, todos los derechos reservados a sus creadores, poseedores, etc.
 - Me diverti mucho y puse a prueba mis habilidades y conocimientos adquiridos, ademas de hacer nuevos amigos en el camino.
