@@ -17,6 +17,7 @@ color gris letras #bababbff */
 body{
   background-image: url(..//img/img1.jpg);
   background-size: auto;
+  background-repeat: no-repeat;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
