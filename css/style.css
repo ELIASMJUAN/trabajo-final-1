@@ -16,12 +16,17 @@ color gris letras #bababbff */
 
 body{
   background-image: url(..//img/img1.jpg);
+  background-color:#1f1f20;
   background-size: auto;
   background-repeat: no-repeat;
+  
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+
+  max-width: 1420px;
+  width: 100%;
 }
 
 /* ---------------------------INICIO HEADER */
