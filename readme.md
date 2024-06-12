@@ -7,7 +7,7 @@ https://www.behance.net/gallery/178913041/My-portfolio-website/modules/101054589
 
 Se realiza un diseño ordenado con desplazamiento suave para mejorar la experiencia del usuario.
 
-## ✨ Características Destacadas
+## ✨ Características
 
 - **Interactividad:** Desplazamiento completo mediante botones presentes en Header e ingreso a otras paginas.
 - **Icons:** Iconos de redes y regreso a Home incluidos para una navegación más intuitiva.
